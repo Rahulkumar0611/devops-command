@@ -2,12 +2,6 @@ This command lets you enter inside the running Docker container named school_mon
 
 docker exec -it school_mongo bash
 
-Part	            Meaning
-docker exec	        Run a command inside an already running container
--it	                Interactive terminal mode
-school_mongo	    Container name
-bash	            Opens Linux bash shell inside container
-
 
 
 mongosh
