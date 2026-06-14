@@ -4,10 +4,10 @@
 
 This command lets you enter inside the running Docker container named `school_mongo`.
 
-### Step 1: Enter MongoDB Container
+### Step 1: Enter MongoDB Container in mongodb
 
 ```bash
-docker exec -it school_mongo bash
+docker exec -it school_mongo bashs
 ```
 iouisyusay
 saouiuyft
