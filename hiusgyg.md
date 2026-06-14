@@ -7,7 +7,7 @@ This command lets you enter inside the running Docker container named `school_mo
 ### Step 1: Enter MongoDB Container
 
 ```bash
-docker exec -it school_mongo bash
+docker exec -it school_mongo bashgitbashrahul
 ```
 iouisyusay
 saouiuyft
