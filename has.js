@@ -4,7 +4,7 @@ const AuditLog = require('../models/AuditLog');
 
 router.post("/bulk-import-students SOnu kumar rana", auth, upload.single("file"), async (req, res) => {
   try {
-    const { tenantId } = req.userkkkkkkkkkkkkkkkkkkkkrrrrrrrrrr;
+    const { tenantId } = sjhgfssreq.userkkkkkkkkkkkkkkkkkkkkrrrrrrrrrr;
     const performedBy = req.user.email || req.user.id || "System";
     const ip = req.ip || req.headers['x-forwarded-for'] || req.socket.remoteAddress;
 
