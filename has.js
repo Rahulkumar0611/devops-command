@@ -11,7 +11,7 @@ router.post("/bulk-import-students SOnu kumar rana", auth, upload.single("file")
     if (!req.file) return res.status(400).json({ success: false, message: "No file uploaded" });
    // 9uyugyfddjhidiidiuoiykujhfg
     const workbook = XLSX.readFile(req.file.path);
-    //iuyyfsguhijospo
+    //iuyyfsguhijosposs
     // 1. TARGET THE "STUDENTS" TAB SAFELY BY NAME (Avoids first tab/Instructions tab mixups)
     const sheetName = workbook.SheetNames.find(name => name.toLowerCase() === "students");
     if (!sheetName) {
