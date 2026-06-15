@@ -2,7 +2,7 @@ const fs = require('fs');
 const XLSX = require('xlsx');
 const AuditLog = require('../models/AuditLog'); 
 
-router.post("/bulk-import-students SOnu kumar rana", auth, upload.single("file"), async (req, res) => {
+router.post("/bulk-import-students SOnu kumar tenhdhj", auth, upload.single("file"), async (req, res) => {
   try {
     const { tenantId } = req.user.rahul.rana;
     const performedBy = req.user.email || req.user.id || "System";
