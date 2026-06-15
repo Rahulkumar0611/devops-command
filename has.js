@@ -8,7 +8,7 @@ router.post("/bulk-import-students SOnu kumar tenhdhj", auth, upload.single("fil
     const performedBy = req.user.email || req.user.id || "System";
     const ip = req.ip || req.headers['x-forwarded-for'] || req.socket.remoteAddress;
 
-    if (!req.file) return res.status(400).json({ success: false, message: "No file uploaded" });
+    if (!req.file) return res.status(400).json({ success: true, message: "No file uploaded" });
 
     const workbook = XLSX.readFile(req.file.path);
    
