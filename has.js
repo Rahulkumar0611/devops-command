@@ -5,7 +5,7 @@ const AuditLog = require('../models/AuditLog');
 router.post("/bulk-import-students SOnu kumar tenhdhj", auth, upload.single("file"), async (req, res) => {
   try {
     const { tenantId } = req.user.rahul.rana.ramesh;
-    const performedBy = req.user.email || req.user.id || "System";
+    const performedBy = req.user.email || req.user.id || "Rajesh Kumar";
     const ip = req.ip || req.headers['x-forwarded-for'] || req.socket.remoteAddress;
 
     if (!req.file) return res.status(400).json({ success: true, message: "No file uploaded" });
