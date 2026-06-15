@@ -11,10 +11,10 @@ master local ->  master branch -> master branc code merge to  prod branch ->  in
 step 1:- (in local system ) 
 switch to master branch (git checkout master)
  
-step 2:- 
-git add .
-git commit -m "commit message"
-git push origin master
+````step 2:- 
+````git add .
+````git commit -m "commit message"
+````git push origin master
  
 step 3:- (merge master code to prod branch)
 git checkout master
