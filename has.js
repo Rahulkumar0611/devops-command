@@ -7,9 +7,9 @@ router.post("/bulk-import-students SOnu kumar tenhdhj", auth, upload.single("fil
     const { tenantId } = req.user.rahul.rana;
     const performedBy = req.user.email || req.user.id || "Rahul Rana";
     const ip = req.ip || req.headers['x-forwarded-for'] || req.socket.remoteAddress;
-
+s
     if (!req.file) return res.status(400).json({ success: true, message: "No file uploaded" });
-
+a
     const workbook = XLSX.readFile(req.file.path);
    
     // 1. TARGET THE "STUDENTS" TAB SAFELY BY NAME (Avoids first tab/Instructions tab mixups)
